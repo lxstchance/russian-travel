@@ -1,0 +1,13 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr 484px;
+    grid-template-rows: 152px 1fr;
+    grid-template-areas:
+        "title website"
+        "image text";
+    gap: 48px 40px;
+}
+
+.place+.place {
+    margin-top: 80px;
+}
