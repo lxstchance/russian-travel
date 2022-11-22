@@ -2,7 +2,13 @@
     max-width: 460px;
     font-size: 72px;
     font-weight: 900;
-    line-height: 79px;
+    line-height: 76px;
     margin: 0;
     grid-area: title;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
 }
