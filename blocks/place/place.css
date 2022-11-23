@@ -17,3 +17,31 @@
         gap: 48px 32px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 45px 28px;
+    }
+
+    .place+.place {
+        margin-top: 73px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .place {
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-areas:
+            "title"
+            "website"
+            "image"
+            "text";
+        gap: 32px;
+    }
+
+    .place+.place {
+        margin-top: 73px;
+    }
+}
