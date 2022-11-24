@@ -13,14 +13,21 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .header {
         padding: 28px 0 0;
         max-width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
+    .header {
+        padding: 16px 0 0;
+        max-width: calc(100vw - 10%);
+    }
+}
+
+@media screen and (max-width: 360px) {
     .header {
         padding: 16px 0 0;
         max-width: 288px;

@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        gap: 45px 28px;
+        gap: 48px 28px;
     }
 
     .place+.place {
@@ -30,7 +30,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
     .place {
         grid-template-columns: minmax(min-content, max-content);
         grid-template-areas:
@@ -39,6 +39,7 @@
             "image"
             "text";
         gap: 32px;
+
     }
 
     .place+.place {

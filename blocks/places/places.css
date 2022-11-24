@@ -9,14 +9,14 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .places {
         max-width: 720px;
         margin: 88px auto 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
     .places {
         max-width: 100%;
         margin: 64px auto 0;

@@ -4,7 +4,7 @@
     font-weight: 400;
     line-height: 29px;
     margin: 0;
-    word-break: break-word;
+    /* word-break: break-word; */
 }
 
 .place__paragraph+.place__paragraph {
@@ -22,9 +22,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
     .place__paragraph {
         max-width: 288px;
-        margin-left: 16px;
+        /* margin-left: 16px; */
+        justify-items: center;
+        align-items: center;
     }
 }
