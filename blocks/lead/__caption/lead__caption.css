@@ -8,6 +8,12 @@
     margin-top: 8px;
 }
 
+/* @media screen and (max-width: 980px) {
+    .lead__caption {
+        margin-left: calc(100vw - 600px);
+    }
+} */
+
 @media screen and (max-width: 768px) {
     .lead__caption {
         margin-left: 23px;

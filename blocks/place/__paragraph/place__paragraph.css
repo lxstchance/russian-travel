@@ -24,9 +24,14 @@
 
 @media screen and (max-width: 690px) {
     .place__paragraph {
+        max-width: calc(100vw - 100px);
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .place__paragraph {
         max-width: 288px;
-        /* margin-left: 16px; */
-        justify-items: center;
-        align-items: center;
+        margin-left: 16px;
     }
 }

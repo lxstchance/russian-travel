@@ -29,21 +29,21 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        height: 640px;
-        background-size: 100vw;
+        max-height: 640px;
+        max-width: 100vw;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .cover {
-        height: 480px;
+        max-height: 480px;
 
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        height: 200px;
+        max-height: 200px;
         margin-top: 66px;
     }
 }
