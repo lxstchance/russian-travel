@@ -6,6 +6,7 @@
         "title website"
         "image text";
     gap: 48px 40px;
+    margin: 0 auto;
 }
 
 .place+.place {
@@ -31,10 +32,8 @@
 @media screen and (max-width: 750px) {
     .place {
         max-width: calc(100vw - 30px);
-        margin: 0 auto;
     }
 }
-
 
 
 @media screen and (max-width: 670px) {
