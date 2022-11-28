@@ -1,14 +1,15 @@
 # Проект: Путешествие по России
 
-### Обзор
+## Обзор
 Первые шаги в адаптивной верстке, на основе гридов и резиновой верстки
 
-### Технологии:
-⋅⋅*HTML
-⋅⋅*CSS
-⋅⋅*Grid Layout
-⋅⋅*Flexbox
-⋅⋅*Figma
+## Технологии:
+
+* HTML
+* CSS
+* Grid Layout
+* Flexbox
+* Figma
 
 **Проект**
 * [Ссылка на проектом](https://lxstchance.github.io/russian-travel/)
